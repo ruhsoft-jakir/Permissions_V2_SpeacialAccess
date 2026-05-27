@@ -1,5 +1,5 @@
 
-# 📌 Permissions_V2            – Android Runtime & System Permission Manager  
+# 📌 Permissions_V2            – Android System Permission Manager  
 
 A powerful and easy-to-use Android library to handle **special/system accesses** with clean APIs and modern Material dialogs (BottomSheets).  
 
@@ -180,6 +180,12 @@ Here’s how it looks in action 👇
 |---------------------------------------------|-----------------------------------------------|---------------------------------------------|--------------------------------------------|-------------------------------------------|
 | ![Device Admin Demo](screenshots/admin.png) | ![Device Admin Demo](screenshots/allfile.png) | ![Device Admin Demo](screenshots/usage.png) | ![Device Admin Demo](screenshots/noti.png) | ![Device Admin Demo](screenshots/dnd.png) |
 ---
+
+
+
+## 📲 Download Sample
+ ![Click to Download App](app/build/outputs/apk/debug/app-debug.apk)
+
 
 ## 🤝 Contributing  
 
