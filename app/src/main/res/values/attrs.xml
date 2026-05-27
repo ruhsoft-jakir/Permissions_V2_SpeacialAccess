@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="MyPref">
+        <attr name="requestText" format="string" />
+        <attr name="acceptedText" format="string" />
+        <attr name="allowed" format="boolean" />   <!-- new -->
+    </declare-styleable>
+</resources>

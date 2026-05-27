@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Permissions_V2_SpeacialAccess</string>
+    <string name="accessibility_service_description">"এই Accessibility Service আপনার অ্যাপকে অতিরিক্ত ফিচার চালু করার অনুমতি দেবে। "</string>
+</resources>

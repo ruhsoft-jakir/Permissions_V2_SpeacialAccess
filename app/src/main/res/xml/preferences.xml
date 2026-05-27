@@ -1,0 +1,88 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_device_admin"
+        android:title="Device Admin App"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="gps_access"
+        android:title="gps_access"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_accessibility"
+        android:title="Accessibility Service"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_manage_storage"
+        android:title="Manage All Files Access"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_overlay"
+        android:title="Draw Over Other Apps"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_battery_opt"
+        android:title="Ignore Battery Optimizations"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_usage_access"
+        android:title="Usage Access"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_write_settings"
+        android:title="Modify System Settings"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_dnd"
+        android:title="Do Not Disturb Access"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_notification_listener"
+        android:title="Notification Listener Access"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_unknown_sources"
+        android:title="Install Unknown Apps"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="switch_media_projection"
+        android:title="Screen Capture Permission"
+        app:acceptedText="aaaaa"
+        app:requestText="rrrrrr" />
+
+</PreferenceScreen>

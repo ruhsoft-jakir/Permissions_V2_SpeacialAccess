@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_device_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device Admin App"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/gps_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gps Access"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_accessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accessibility Service"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_manage_storage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage All Files Access"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Draw Over Other Apps"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_battery_opt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore Battery Optimizations"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_usage_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage Access"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_write_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modify System Settings"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_dnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do Not Disturb Access"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_notification_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Listener Access"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_unknown_sources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Install Unknown Apps"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_media_projection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screen Capture Permission"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

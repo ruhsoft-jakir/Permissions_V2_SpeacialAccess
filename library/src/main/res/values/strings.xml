@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permissions All</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fix_text_00">If this type of restriction message is displayed. So let us try to fix it.</string>
+    <string name="fix_text_01"><b>1.</b> Exit the app and go to the All Apps launcher. \nThen, long press and hold the <b>\"Stealing SMS\"</b>  app and click <b>\"App Info\"</b> , it will redirect you to the App Info page.</string>
+    <string name="fix_text_02"><b>2.</b> In the top right corner of the App Info page you will see a three-dot menu. Tap on it </string>
+    <string name="fix_text_03"><b>3.</b> Now you will find the option <b>\"Permission Restricted Settings\"</b> Click on it. \nThis should be enough to remove the restriction.</string>
+    <string name="fix_text_04"><b>4.</b> Then come back and click on the <b>\'Notification Access\'</b> switch to enable the notification access.</string>
+    <string name="permission_is_blocked">Permission is Blocked. Please allow this permission in App Settings.</string>
+</resources>

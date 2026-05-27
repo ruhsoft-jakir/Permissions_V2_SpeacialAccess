@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Media Storage -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_mediastorage_allow"
+        android:title="Media Storage" />
+
+    <!-- Contacts -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_contacts_allow"
+        android:title="Contacts" />
+
+    <!-- Camera -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_camera_allow"
+        android:title="Camera" />
+
+    <!-- Location -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_location_allow"
+        android:title="Location" />
+
+    <!-- Call Log -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_calllog_allow"
+        android:title="Call Log" />
+
+    <!-- Phone -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_phone_allow"
+        android:title="Phone" />
+
+    <!-- SMS -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_sms_allow"
+        android:title="SMS" />
+
+    <!-- Microphone -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_microphone_allow"
+        android:title="Microphone" />
+
+    <!-- Notification -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_notification_allow"
+        android:title="Notification Access" />
+
+    <!-- File Storage -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_filestorage_allow"
+        android:title="File Storage" />
+
+    <!-- Grant All Permissions -->
+    <PermissionPreference
+        android:icon="@drawable/ic_android_black_24dp"
+        android:key="sw_grant_all"
+        android:title="Grant All Permissions" />
+
+</PreferenceScreen>
