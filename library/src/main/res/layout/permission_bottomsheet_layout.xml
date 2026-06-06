@@ -22,7 +22,7 @@
 
         <View
             android:layout_width="40dp"
-            android:layout_height="5dp"
+            android:layout_height="4dp"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
             android:background="@drawable/bottomsheet_indicator" />
@@ -120,7 +120,8 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
         android:background="@drawable/bottomsheet_close_bg"
-        android:padding="7dp"
+        android:padding="5dp"
+        app:tint="?colorOnSurfaceVariant"
         android:src="@drawable/round_close_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/lin" />
