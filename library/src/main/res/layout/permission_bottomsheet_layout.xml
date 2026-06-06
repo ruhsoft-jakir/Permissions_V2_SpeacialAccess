@@ -41,7 +41,7 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:src="@drawable/notific_restrict_fix_01" />
+                 />
 
             <TextView
                 android:visibility="gone"
