@@ -14,7 +14,7 @@ import static com.jakir.permissions.PermissionAccess_helper.REQUEST_CODE_MODIFY_
 import static com.jakir.permissions.PermissionAccess_helper.REQUEST_CODE_NOTIFICATION_LISTENER;
 import static com.jakir.permissions.PermissionAccess_helper.REQUEST_CODE_OVERLAY;
 import static com.jakir.permissions.PermissionAccess_helper.REQUEST_CODE_USAGE_ACCESS;
-
+import android.graphics.Color;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -50,11 +50,11 @@ public class Bottomsheet_dialog_Access {
     public void show(int allow_code, String message, Drawable permissionImage, Class<?> classService) {
         BottomSheetDialog dialog;
         View view = ((Activity) context).getLayoutInflater().inflate(R.layout.permission_bottomsheet_layout, null);
-        dialog = new BottomSheetDialog(context, R.style.AppBottomSheetDialogTheme); // Style here
+        dialog = new BottomSheetDialog(context);
         dialog.setContentView(view);
         dialog.show();
         if (dialog.getWindow() != null) {
-            dialog.getWindow().setNavigationBarColor(ContextCompat.getColor(context, R.color.DayLight_NightDark)); //✅ NavigationBar color fix
+            dialog.getWindow().setNavigationBarColor(Color.TRANSPARENT); //✅ NavigationBar color fix
         }
         String pDisplayName = PermissionAccess_helper.getAccessPermissionName(allow_code);
 
