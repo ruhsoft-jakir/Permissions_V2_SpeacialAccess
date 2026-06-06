@@ -54,7 +54,7 @@ public class Bottomsheet_dialog_Access {
         dialog.setContentView(view);
         dialog.show();
         if (dialog.getWindow() != null) {
-            dialog.getWindow().setNavigationBarColor(Color.TRANSPARENT); //✅ NavigationBar color fix
+          //  dialog.getWindow().setNavigationBarColor(Color.TRANSPARENT); //✅ NavigationBar color fix
         }
         String pDisplayName = PermissionAccess_helper.getAccessPermissionName(allow_code);
 
